@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.DiceRoller2">
 
     <application
         android:allowBackup="true"
@@ -8,15 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
-        <activity android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity">
+        android:theme="@style/Theme.DiceRoller">
+        <activity android:name="com.example.DiceRoller2.DisplayMessageActivity"
+            android:parentActivityName="com.example.DiceRoller2.MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.DiceRoller2.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.DiceRoller2.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

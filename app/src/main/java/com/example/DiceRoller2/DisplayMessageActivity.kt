@@ -1,7 +1,6 @@
-package com.example.myapplication
+package com.example.DiceRoller2
 
 import androidx.appcompat.app.AppCompatActivity
-import android.content.Intent
 import android.os.Bundle
 import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.widget.TextView
